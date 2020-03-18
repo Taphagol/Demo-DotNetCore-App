@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectNetCore", "ProjectNetCore\ProjectNetCore.csproj", "{7A9E602C-1137-48EB-9BB9-75BFC19B9FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementMVCCoreClient", "EmployeeManagementMVCCoreClient\EmployeeManagementMVCCoreClient.csproj", "{751CE138-4B35-4F83-A34D-5B506275E63A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A9E602C-1137-48EB-9BB9-75BFC19B9FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9E602C-1137-48EB-9BB9-75BFC19B9FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9E602C-1137-48EB-9BB9-75BFC19B9FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9E602C-1137-48EB-9BB9-75BFC19B9FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751CE138-4B35-4F83-A34D-5B506275E63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751CE138-4B35-4F83-A34D-5B506275E63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751CE138-4B35-4F83-A34D-5B506275E63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751CE138-4B35-4F83-A34D-5B506275E63A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E561085-7364-4FE7-9B44-9452C7BE058B}
+	EndGlobalSection
+EndGlobal

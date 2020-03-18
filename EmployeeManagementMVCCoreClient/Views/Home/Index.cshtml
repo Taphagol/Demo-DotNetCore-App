@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Employee>
+
+@{
+    //Layout = "/Views/Shared/_Layout.cshtml"; On a plus besoin de ca vu qu'on utilise maintenant _ViewStart
+    ViewBag.Title = "Employee List";
+
+}
+
+
+@*<table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model)
+            {
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.Name</td>
+                    <td>@employee.Department</td>
+                </tr>
+            }
+        </tbody>
+    </table>*@
+
+<div class="card-deck">
+    @foreach (var employee in Model)
+    {
+        var photoPath = "~/images/" + (employee.PhotoPath ?? "noimage.jpg");
+
+        <div class="card m-3" style="min-width: 18rem; max-width:30.5%">
+            <div class="card-header">
+                <h3>@employee.Name</h3>
+            </div>
+            <img class="card-img-top imageThumbnail" src="@photoPath" asp-append-version="true" />
+            <div class="card-footer text-center">
+                <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.Id" class="btn btn-primary m-1">View</a>
+                <a asp-controller="Home" asp-action="edit" asp-route-id="@employee.Id" class="btn btn-primary m-1">Edit</a>
+                <a asp-controller="Home" asp-action="delete" asp-route-id="@employee.Id" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+
+
