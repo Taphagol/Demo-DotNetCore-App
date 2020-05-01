@@ -14,9 +14,9 @@ namespace EmployeeManagementMVCCoreClient.Models
         {
             _employeeList = new List<Employee>()
             {
-                new Employee() {Id = 1, Name = "Mary", Department = Dept.HR, Email = "mary@pragim.com"},
-                new Employee() {Id = 2, Name = "John", Department = Dept.IT, Email = "john@pragim.com"},
-                new Employee() {Id = 3, Name = "Sam", Department = Dept.IT, Email = "sam@pragim.com"}
+                new Employee() {Id = 1, Name = "Mary", Department = Dept.HR, Email = "mary@ndawene.com"},
+                new Employee() {Id = 2, Name = "John", Department = Dept.IT, Email = "john@ndawene.com"},
+                new Employee() {Id = 3, Name = "Sam", Department = Dept.IT, Email = "sam@ndawene.com"}
             };
         }
 
