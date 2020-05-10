@@ -9,7 +9,7 @@ namespace EmployeeManagementMVCCoreClient.Migrations
             migrationBuilder.InsertData(
                 table: "Employees",
                 columns: new[] { "Id", "Department", "Email", "Name" },
-                values: new object[] { 1, 2, "mark@pragimtech.com", "Mark" });
+                values: new object[] { 1, 2, "mark@ndawene.com", "Mark" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

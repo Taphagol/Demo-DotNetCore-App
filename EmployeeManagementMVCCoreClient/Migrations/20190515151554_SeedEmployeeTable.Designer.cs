@@ -44,7 +44,7 @@ namespace EmployeeManagementMVCCoreClient.Migrations
                         {
                             Id = 1,
                             Department = 2,
-                            Email = "mark@pragimtech.com",
+                            Email = "mark@ndawene.com",
                             Name = "Mark"
                         });
                 });

@@ -45,14 +45,14 @@ namespace EmployeeManagementMVCCoreClient.Migrations
                         {
                             Id = 1,
                             Department = 1,
-                            Email = "mary@pragimtech.com",
+                            Email = "mary@ndawene.com",
                             Name = "Mary"
                         },
                         new
                         {
                             Id = 2,
                             Department = 2,
-                            Email = "mark@pragimtech.com",
+                            Email = "mark@ndawene.com",
                             Name = "Mark"
                         });
                 });

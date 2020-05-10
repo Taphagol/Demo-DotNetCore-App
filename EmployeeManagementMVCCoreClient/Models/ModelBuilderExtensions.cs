@@ -16,14 +16,14 @@ namespace EmployeeManagementMVCCoreClient.Models
                        Id = 1,
                        Name = "Mary",
                        Department = Dept.HR,
-                       Email = "mary@pragimtech.com"
+                       Email = "mary@ndawene.com"
                    },
                     new Employee
                     {
                         Id = 2,
                         Name = "Mark",
                         Department = Dept.IT,
-                        Email = "mark@pragimtech.com"
+                        Email = "mark@ndawene.com"
                     }
                );
         }

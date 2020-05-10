@@ -13,8 +13,8 @@ namespace EmployeeManagementMVCCoreClient.ViewModels
         [Required]
         [EmailAddress]
         [Remote(action: "IsEmailInUse", controller: "Account")]
-        [ValidEmailDomain(allowedDomain: "pragimtech.com",
-        ErrorMessage = "Email domain must be pragimtech.com")]
+        [ValidEmailDomain(allowedDomain: "ndawene.com",
+        ErrorMessage = "Email domain must be ndawene.com")]
         public string Email { get; set; }
 
         [Required]
