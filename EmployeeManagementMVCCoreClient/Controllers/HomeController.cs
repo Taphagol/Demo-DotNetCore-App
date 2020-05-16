@@ -56,14 +56,12 @@ namespace EmployeeManagementMVCCoreClient.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
         public ViewResult Create()
         {
             return View();
         }
 
         [HttpGet]
-        [AllowAnonymous]
         public ViewResult Edit(int id)
         {
             Employee employee = _employeeRepository.GetEmployee(id);

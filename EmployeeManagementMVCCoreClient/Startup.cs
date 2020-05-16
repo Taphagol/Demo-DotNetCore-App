@@ -29,7 +29,7 @@ namespace EmployeeManagementMVCCoreClient
         {
             services.AddDbContextPool<AppDBContext>(options => options.UseSqlServer(_config.GetConnectionString("EmployeeDBConnection")));
 
-            services.AddIdentity<IdentityUser, IdentityRole>()
+            services.AddIdentity<ApplicationUser, IdentityRole>()
                     .AddEntityFrameworkStores<AppDBContext>();
 
             services.Configure<IdentityOptions>(options =>
