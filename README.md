@@ -2,7 +2,7 @@
 This is a demo of a .net core mvc app
 
 # Software required
-Visual Studio 2017. Community Edition which is free will also work.
+Visual Studio 2017. Community Edition which is free will also work and
 .NET Core SDK 2.2
 
 # To run this project in your local machine
